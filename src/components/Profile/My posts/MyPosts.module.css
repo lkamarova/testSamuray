@@ -1,0 +1,14 @@
+.content {
+  grid-area: c;
+  padding: 10px;
+}
+
+.imgContent {
+  width: 1000px;
+  height: 200px;
+}
+
+.postsBlock {
+  margin-top: 10px;
+}
+

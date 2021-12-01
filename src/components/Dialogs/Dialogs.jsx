@@ -5,7 +5,7 @@ import Message from "./Message/Message";
 import {
   updateNewMessageBodyCreator,
   sendMessageCreator,
-} from "./../../redux/store";
+} from "./../../redux/dialogs-reducer";
 
 const Dialogs = (props) => {
   let state = props.store.getState().dialogsPage;
@@ -42,7 +42,6 @@ const Dialogs = (props) => {
               placeholder="Add your message"
               onChange={onNewMessageChange}
             >
-              {" "}
             </textarea>
           </div>
           <div>

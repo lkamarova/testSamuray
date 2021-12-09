@@ -16,8 +16,13 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div>
-        <NavLink to="/Dialogs" className={getClassName}>
+        <NavLink to="/dialogs" className={getClassName}>
           Dialogs
+        </NavLink>
+      </div>
+      <div>
+        <NavLink to="/users" className={getClassName}>
+          Users
         </NavLink>
       </div>
       <div className={styles.item}>
